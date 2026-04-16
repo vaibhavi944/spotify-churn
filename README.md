@@ -81,4 +81,12 @@ Raw data wasn't enough. Our SQL-engineered features (temporal averages and inten
 ```
 
 ---
+
+## 🚀 Strategic Recommendations & Business Action Plan
+1.  **The "Golden Window" Intervention (D3-D7)**: With the D7 inflection point identified at 86%, the business should trigger automated engagement campaigns (personalized "Welcome Back" playlists or feature tours) specifically on **Day 4 or 5** for users with declining activity.
+2.  **High-Value (Premium) Friction Audit**: Since **Subscription Type (Premium)** is the #1 predictor of churn, it suggests that paying users have higher expectations or face specific friction (e.g., billing issues or trial-to-paid transitions). I recommend a UX audit of the Premium cancellation flow and trial-end notifications.
+3.  **Proactive Support for High-Risk Clusters**: **Support Load Score** is a major leading indicator. Instead of waiting for users to reach out, the system should flag users with multiple failed interactions or high ticket density for **proactive outreach** or priority support routing to prevent "frustration churn."
+4.  **Content Pivot for "Frustrated" Listeners**: Users with a high **Negative Feedback Density** (skips vs. minutes) are clearly not finding content they enjoy. The recommendation engine should pivot these users toward highly-rated "safe" global hits or different genres once a specific skip-threshold is met in a single session.
+
+---
 *Developed as a demonstration of high-dimensional feature engineering and lifecycle modeling.*
