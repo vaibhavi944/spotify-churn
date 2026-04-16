@@ -29,10 +29,12 @@ Raw data wasn't enough. Our SQL-engineered features (temporal averages and inten
 ### 2. Model Performance
 *   **Overall Accuracy**: `80%`
 *   **Churn Precision**: `0.41` (High signal for identifying risk groups)
+*   **Churn Recall**: `0.24` (Focus on high-certainty churners)
+*   **D7 Critical Point**: `86%` Retention probability (Identified as the key pivot for intervention)
 *   **Top 3 Churn Predictors (by Gain)**:
     1.  **Subscription Type (Premium)**: Identifying high-value LTV risk.
     2.  **Support Load Score**: Direct link between technical friction and attrition.
-    3.  **Regional Signals (France)**: Localized behavioral patterns detected.
+    3.  **Support Tickets**: Frequency of manual intervention requests.
 
 ### 3. Visual Insights
 *   **Retention Curves**: Clearly visualize the probability of a user staying based on their age in the system.
